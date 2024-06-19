@@ -1,0 +1,7 @@
+{
+  "BACKEND_URL": "https://${dnsSuffix}/api",
+  "AUTH_URL": "https://${dnsSuffix}/auth",
+  "REALM_NAME": "quarkus",
+  "PROVIDER_NAME": "gitlab",
+  "GITLAB_URL": "${gitlabUrl}"
+}

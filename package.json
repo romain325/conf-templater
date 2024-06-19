@@ -1,0 +1,21 @@
+{
+  "name": "conf-templater",
+  "version": "1.0.0",
+  "description": "Generate templated conf from conf file",
+  "main": "conf-templater.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "romainolivier42@gmail.com",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^20.14.5",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "bin": {
+    "conf-templater": "./index.js"
+  }
+}
