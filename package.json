@@ -1,13 +1,13 @@
 {
   "name": "conf-templater",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate templated conf from conf file",
   "main": "./dist/conf-templater.js",
   "scripts": {
     "dev": "tsx lib/conf-templater.ts",
     "bundle": "tsup && tsx lib/conf-templater.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "npm run bundle && npm publish"
+    "deploy": "tsup && npm publish"
   },
   "author": "romainolivier42@gmail.com",
   "license": "Apache-2.0",
