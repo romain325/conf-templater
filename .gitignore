@@ -2,3 +2,5 @@ package-lock.json
 node_modules/
 conf-templater.iml
 .idea/
+
+**/*.js
